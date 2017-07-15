@@ -77,7 +77,7 @@
 						
 				while ( have_rows('featured_bottle') ) : the_row();
 						        
-					echo '<div class="col_3"><div class="content"><div class="bottle">';
+					echo '<div class="col_3 col_20percent"><div class="content"><div class="bottle">';
 					
 					if( get_sub_field('link') ):
 					
