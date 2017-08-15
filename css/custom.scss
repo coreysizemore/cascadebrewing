@@ -345,6 +345,73 @@ article.blog_preview {
 	}
 }
 
+/* age verify */
+
+#av-overlay-wrap {
+	background: rgba(6,42,72,0.95) !important;
+	
+	#av-overlay {
+		background: #082034;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		-ms-box-shadow: none;
+		box-shadow: none;
+		
+		.error {
+			color: #082034;
+		}
+		
+		h1 {
+			color: #ffffff;
+			background: url('../img/logo_light.png') no-repeat;
+			background-size: 280px auto;
+			background-position: center top;
+			font-size: 32px;
+			font-weight: 500;
+			padding-top: 200px;
+			text-align: center;
+		}
+		
+		p {
+			color: #ffffff;
+			font-size: 22px;
+			font-weight: 300;
+			text-align: center;
+		}
+		
+		#av_verify_form {
+			
+			label {
+				font-size: 14px;
+			}
+			
+			input[type="submit"] {
+				background: #bc792a;
+				border: none;
+				color: #ffffff;
+				cursor: pointer;
+				display: inline-block;
+				font-size: 14px;
+				padding: 10px 15px;
+				text-transform: uppercase;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				-ms-appearance: none;
+				appearance: none;
+			}
+			
+			input[type="submit"]:hover {
+				opacity: .5;
+			}
+			
+			select {
+				font-size: 18px;
+			}
+			
+		}
+	}
+}
+
 
 @media (min-width: 980px) and (max-width: 1220px) {
 	
@@ -469,6 +536,16 @@ article.blog_preview {
 		}
 	}
 	
+	/* age verify */
+	
+	#av-overlay-wrap {
+		#av-overlay {
+			margin: 10px 10px 0 10px;
+			position: static;
+			width: calc(100% - 100px);
+		}
+	}
+	
 }
 	
 @media (min-width: 0px) and (max-width: 479px) {
@@ -535,6 +612,16 @@ article.blog_preview {
 				display: block;
 				width: calc(100% - 20px);
 			}
+		}
+	}
+	
+	/* age verify */
+	
+	#av-overlay-wrap {
+		#av-overlay {
+			margin: 10px 10px 0 10px;
+			position: static;
+			width: calc(100% - 100px);
 		}
 	}
 	
