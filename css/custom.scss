@@ -323,6 +323,28 @@ article.blog_preview {
 	}
 }
 
+.sang-noir {
+	.tasting_notes {
+		background: #722045;
+		
+		h3,strong {
+			color: #c79050;
+		}
+	}
+}
+
+.vitis-noble {
+	.tasting_notes {
+		background: #87a55c;
+	}
+}
+
+.one-way-another {
+	.tasting_notes {
+		background: #a9638e;
+	}
+}
+
 /* distrubutor list */
 
 .wholesalers {
@@ -348,7 +370,7 @@ article.blog_preview {
 /* age verify */
 
 #av-overlay-wrap {
-	background: rgba(6,42,72,0.95) !important;
+	background: rgba(6,42,72,1) !important;
 	
 	#av-overlay {
 		background: #082034;
@@ -543,6 +565,13 @@ article.blog_preview {
 			margin: 10px 10px 0 10px;
 			position: static;
 			width: calc(100% - 100px);
+			
+			h1 {
+				background: url('../img/logo_light.png') no-repeat;
+				background-size: 120px auto;
+				background-position: center top;
+				padding-top: 85px;
+			}
 		}
 	}
 	
@@ -622,6 +651,13 @@ article.blog_preview {
 			margin: 10px 10px 0 10px;
 			position: static;
 			width: calc(100% - 100px);
+			
+			h1 {
+				background: url('../img/logo_light.png') no-repeat;
+				background-size: 220px auto;
+				background-position: center top;
+				padding-top: 160px;
+			}
 		}
 	}
 	
