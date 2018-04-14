@@ -145,7 +145,8 @@ header.header_page_mobile {
 		padding: 100px 0px;
 		
 		.col_3.col_20percent {
-			width: 20%;
+			width: calc(25% - 40px);
+			margin-bottom: 20px;
 		}
 		
 		.content {
@@ -313,6 +314,24 @@ article.blog_preview {
 	}
 }
 
+.rose-city-sour {
+	.tasting_notes {
+		background: #bc6676;
+	}
+}
+
+.pearpawsterous {
+	.tasting_notes {
+		background: #d3c26a;
+	}
+}
+
+.melonious-blond {
+	.tasting_notes {
+		background: #e6977f;
+	}
+}
+
 .sang-du-chene {
 	.tasting_notes {
 		background: #f6f5f3;
@@ -342,6 +361,26 @@ article.blog_preview {
 .one-way-another {
 	.tasting_notes {
 		background: #a9638e;
+	}
+}
+
+.sang-royal {
+	.tasting_notes {
+		background: #572a77;
+		
+		h3,strong {
+			color: #c79050;
+		}
+	}
+}
+
+.midnight-bramble {
+	.tasting_notes {
+		background: #042b48;
+		
+		h3,strong {
+			color: #bc6676;
+		}
 	}
 }
 
@@ -535,7 +574,7 @@ article.blog_preview {
 			}
 			
 			.col_3.col_20percent {
-				width: 100%;
+				width: calc(100% - 40px);
 			}
 		}
 	}
@@ -621,7 +660,7 @@ article.blog_preview {
 			}
 			
 			.col_3.col_20percent {
-				width: 100%;
+				width: calc(100% - 40px);
 			}
 		}
 	}
