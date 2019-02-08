@@ -267,6 +267,10 @@ header {
 	}
 }
 
+#main[class*="cascadebrewing"] {
+	padding-top: 0px;
+}
+
 #main {
 	background: $background;
 	
@@ -376,6 +380,7 @@ header {
 #beer_home_wrapper {
 	background: #f5f5f5;
 	padding: 50px 0px;
+	margin-bottom: 60px;
 	
 	.beer_logo {
 		display: inline-block;
