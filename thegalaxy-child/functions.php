@@ -6,7 +6,6 @@
 	*/
 	
 	require_once locate_template('/lib/child.php');
-	require_once locate_template('/lib/page_title.php');
 	require_once locate_template('/lib/wordpress.php');
 	require_once locate_template('/lib/wordpress_child.php');
 	require_once locate_template('/lib/login.php');
