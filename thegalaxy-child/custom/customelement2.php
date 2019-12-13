@@ -1,10 +1,10 @@
 <?php
 						
-	$result = get_field('beer_pg_1','option');
+	$beer_page_1 = get_field('beer_pg_1','option');
 	
-	//$beer_page_2 = get_field('beer_pg_2','option');
+	$beer_page_2 = get_field('beer_pg_2','option');
 	
-	//$result = array_merge($beer_page_1, $beer_page_2);
+	$result = array_merge($beer_page_1, $beer_page_2);
 						
 	if( $result ):
 		

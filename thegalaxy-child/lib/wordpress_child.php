@@ -1,15 +1,19 @@
 <?php
 	
 	/*
-		Child Wordpress Funtions
+		Call Custom Styles
 	*/
 	
-	function csdd_child_scripts() {
-	
-		wp_enqueue_style( 'csdd-custom', get_stylesheet_directory_uri() . '/css/custom.css' );
-	
+
+	function galaxy_scriptss() 
+	{
+		
+		wp_enqueue_style( 'galaxy-child-style', get_stylesheet_directory_uri() . '/style.css' );
+	    wp_enqueue_style( 'galaxy-child-custom-style', get_stylesheet_directory_uri() . '/css/custom.css' );
+	    
 	}
-	add_action( 'wp_enqueue_scripts', 'csdd_child_scripts' );
+	
+	add_action( 'wp_enqueue_scripts', 'galaxy_scriptss', 99 );
 	
 	if( function_exists('acf_add_options_page') ) {
 		

@@ -1,6 +1,6 @@
 <?php
 						
-	$result = get_field('beer_pg_1','option');
+	$result = get_field('beer_pg_2','option');
 					
 	if( $result ):
 		
