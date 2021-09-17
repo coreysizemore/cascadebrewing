@@ -414,6 +414,16 @@ header {
 		img:hover {
 			opacity: .5;
 		}
+		
+		a:link,
+		a:visited {
+			h3 {
+				display: block;
+				text-align: center;
+				padding: 10px 0px;
+				font-weight: 500;
+			}
+		}
 	}
 }
 
@@ -677,6 +687,25 @@ footer {
 		
 		h2 {
 			color: $colorone;
+		}
+	}
+	
+	#custom_html-2 {
+		
+		strong {
+			font-weight: 500;
+		}
+		
+		a:link,
+		a:visited {
+			color: $lightfont;
+			text-decoration: none;
+			font-weight: 300;
+		}
+		
+		a:hover,
+		a:active {
+			opacity: .5;
 		}
 	}
 }

@@ -25,10 +25,22 @@
 				echo '<img src="' . $logo['url'] . '" alt="' . $logo['alt'] . '" />';
 				
 				echo '</a>';
+				
+				echo '<a href="' . $beer['beer_page_link'] . '">';
+				
+				echo '<h3>' . $beer['beer_title'] . ' ' . $beer['beer_year'] . '</h3>';
+				
+				echo '</a>';
 			
 			else :
 			
 				echo '<img src="' . $logo['url'] . '" alt="' . $logo['alt'] . '" />';
+				
+				echo '<a href="' . $beer['beer_page_link'] . '">';
+				
+				echo '<h3>' . $beer['beer_title'] . ' ' . $beer['beer_year'] . '</h3>';
+				
+				echo '</a>';
 			
 			endif;
 			
