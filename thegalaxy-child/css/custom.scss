@@ -265,9 +265,12 @@ header {
 	}
 }
 
-#main[class*="cascadebrewing"] {
-	padding-top: 0px;
+.page-id-2 {
+	#main {
+		padding-bottom: 0px;
+	}
 }
+
 
 #main {
 	background: $background;
@@ -279,6 +282,7 @@ header {
 		
 		h1 {
 			text-align: center;
+			margin-bottom: 40px;
 		}
 		
 		hr.divider {
@@ -301,6 +305,20 @@ header {
 		
 		iframe {
 			width: 100%;
+		}
+		
+		span.button_wrapper {
+			display: block;
+			margin-bottom: 40px;
+			text-align: center;
+		}
+		
+		a:link,
+		a:visited {
+			&.button {
+				padding: 10px 20px;
+				text-align: center;
+			}
 		}
 	}
 	
@@ -378,7 +396,6 @@ header {
 #beer_home_wrapper {
 	background: #f5f5f5;
 	padding: 50px 0px;
-	margin-bottom: 60px;
 	
 	.beer_logo {
 		display: inline-block;
@@ -393,6 +410,20 @@ header {
 		
 		img:hover {
 			opacity: .5;
+		}
+		
+		a:link,
+		a:visited {
+			text-decoration: none;
+			
+			h3 {
+				color: $colorthree;
+				display: block;
+				text-align: center;
+				padding: 10px 0px;
+				font-weight: 500;
+				text-decoration: none;
+			}
 		}
 	}
 }
@@ -417,11 +448,15 @@ header {
 		
 		a:link,
 		a:visited {
+			text-decoration: none;
+			
 			h3 {
+				color: $colorthree;
 				display: block;
 				text-align: center;
 				padding: 10px 0px;
 				font-weight: 500;
+				text-decoration: none;
 			}
 		}
 	}
